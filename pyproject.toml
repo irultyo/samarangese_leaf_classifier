@@ -1,0 +1,26 @@
+[project]
+name = "syzygium-samarangense-classification"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "catboost>=1.2.7",
+    "mahotas>=1.4.18",
+    "matplotlib>=3.9.2",
+    "numpy>=1.26.4",
+    "opencv-python>=4.10.0.84",
+    "pillow>=11.0.0",
+    "scikit-image>=0.24.0",
+    "scikit-learn>=1.5.2",
+    "seaborn>=0.13.2",
+    "torch>=2.5.0",
+    "torchvision>=0.20.0",
+    "xgboost>=2.1.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "ruff>=0.7.1",
+]
